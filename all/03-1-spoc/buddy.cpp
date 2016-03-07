@@ -92,7 +92,7 @@ int main() {
             }
             int result = my_allocate(height);
         }
-        if (v1 == 2) { // free
+        if (v1 == 1) { // free
             my_free(v2);
         }
     }
