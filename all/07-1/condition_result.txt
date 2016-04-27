@@ -1,0 +1,43 @@
+A(Thread-1): Send a Msg
+A(Thread-2): Send a Msg
+A(Thread-3): Send a Msg
+A(Thread-4): Failed
+A(Thread-5): Failed
+B(Thread-6): Receive a Msg, 2 Msg Left
+B(Thread-7): Receive a Msg, 2 Msg Left
+B(Thread-8): Receive a Msg, 2 Msg Left
+B(Thread-9): Receive a Msg, 2 Msg Left
+B(Thread-10): Receive a Msg, 2 Msg Left
+A(Thread-3): Send a Msg
+B(Thread-7): Receive a Msg, 2 Msg Left
+A(Thread-2): Failed
+A(Thread-1): Failed
+A(Thread-3): Failed
+B(Thread-9): Receive a Msg, 2 Msg Left
+A(Thread-5): Failed
+B(Thread-6): Receive a Msg, 2 Msg Left
+B(Thread-10): Receive a Msg, 2 Msg Left
+B(Thread-8): Receive a Msg, 2 Msg Left
+A(Thread-3): Send a Msg
+B(Thread-7): Receive a Msg, 2 Msg Left
+A(Thread-4): Failed
+A(Thread-1): Failed
+B(Thread-10): Receive a Msg, 2 Msg Left
+A(Thread-3): Failed
+B(Thread-10): Receive a Msg, 1 Msg Left
+B(Thread-9): Receive a Msg, 2 Msg Left
+B(Thread-6): Receive a Msg, 2 Msg Left
+A(Thread-4): Failed
+B(Thread-9): Receive a Msg, 1 Msg Left
+A(Thread-5): Failed
+B(Thread-8): Receive a Msg, 2 Msg Left
+A(Thread-2): Send a Msg
+A(Thread-3): Failed
+A(Thread-1): Failed
+B(Thread-10): Receive a Msg, 1 Msg Left
+A(Thread-3): Failed
+B(Thread-6): Receive a Msg, 2 Msg Left
+B(Thread-7): Receive a Msg, 2 Msg Left
+A(Thread-2): Failed
+B(Thread-6): Receive a Msg, 1 Msg Left
+
